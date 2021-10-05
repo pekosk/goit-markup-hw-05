@@ -862,13 +862,27 @@ p:last-child {
 }
 
 .close-button {
+  background-color: transparent;
+
+  padding: 0;
+
   position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0,1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.close-button-icon {
+  fill: var(--primary-black-color);
+
+  width: 18px;
+  height: 18px;
+
+  margin-top: 6px;
 }
 
 /* ======END BACKDROP====== */

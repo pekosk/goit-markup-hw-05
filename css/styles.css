@@ -276,6 +276,7 @@ p:last-child {
 
 .container.footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left-side {
@@ -333,14 +334,21 @@ p:last-child {
 
 .footer-list {
   display: inline-block;
+  width: calc((100% - 30px) / 2);
 }
 
 .footer-left-side {
-  calc()
+  display: flex;
+  width: calc((100% - 30px) / 2);
+}
+
+.footer-form {
+  width: calc((100% - 30px) / 2);
 }
 
 .footer-links {
   display: inline-block;
+  width: calc((100% - 30px) / 2);
 }
 
 .footer-links-list {
@@ -349,6 +357,11 @@ p:last-child {
 
 .footer-links-item:not(:first-child) {
   margin-left: 10px;
+}
+
+.footer-left-side{
+  display: flex;
+  align-items: baseline;
 }
 
 .email-form-text {

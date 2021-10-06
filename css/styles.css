@@ -277,11 +277,12 @@ p:last-child {
 .container.footer-box {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-left-side {
   flex-wrap: wrap;
-  
+  justify-content: space-between;
 }
 
 .adress {

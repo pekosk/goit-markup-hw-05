@@ -642,12 +642,11 @@ p:last-child {
 
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
 
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 
   transition-property: background-color;
   transition-duration: 250ms;

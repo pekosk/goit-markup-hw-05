@@ -247,7 +247,32 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
             <button class="close-button" type="button" data-modal-close><svg class="close-button-icon"><use href="./images/icons.svg/symbol-defs.svg#icon-close"></use></svg></button>
-        </div>
+            <form class="modal-form">        
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <label class="modal-form-name">
+                Имя
+                <input type="name" class="input-name" name="name" required>
+            </label> 
+            <label class="modal-form-tel">
+                Телефон
+                <input type="tel" class="input-phone" name="tel" required>
+            </label>
+            <label class="modal-form-email">
+                Почта
+                <input type="email" class="input-email" name="email" required>
+            </label>
+            <label class="modal-form-textarea">
+                Комментарий
+                <textarea name="comment" class="modal-textarea" placeholder="Введите текст">
+                </textarea>
+            </label>
+                <input type="checkbox" name="user_policy" class="modal-check" required>
+                <label>
+                    Соглашаюсь с рассылкой и принимаю <a href="" class="modal-form-link">Условия договора</a>
+                </label>
+                <button type="submit" class="modal-form-submit">Отправить</button>
+        </form>
+     </div>
     </div> 
     <script src="./modal.js"></script>
 </body>

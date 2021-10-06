@@ -64,6 +64,7 @@ p:last-child {
 
 .thumb {
   position: relative;
+    overflow: hidden;
 }
 
 .title.visually-hidden {
@@ -859,10 +860,6 @@ p:last-child {
   border-top: 1px solid rgba(255, 255, 255, 0);
 
   padding: 20px 24px;
-}
-
-.works.thumb {
-  overflow: hidden;
 }
 
 .overlay-text {

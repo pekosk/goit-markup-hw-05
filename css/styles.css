@@ -96,7 +96,6 @@ p:last-child {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .section {
@@ -149,7 +148,6 @@ p:last-child {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .logo:hover,
@@ -204,7 +202,6 @@ p:last-child {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .tel-icon {
@@ -214,7 +211,6 @@ p:last-child {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .site-nav .link.current {
@@ -422,6 +418,16 @@ p:last-child {
   font-size: 16px;
   line-height: 1.88px;
   letter-spacing: 0.03em;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email-submit-button:hover,
+.email-submit-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-secondary-color);
 }
 
 .hero {
@@ -479,7 +485,6 @@ p:last-child {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .hero .button:hover,
@@ -647,7 +652,6 @@ p:last-child {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .footer-social-link:hover,
@@ -678,7 +682,6 @@ p:last-child {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .social-links-icons {
@@ -689,7 +692,6 @@ p:last-child {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .team-social-link:hover,
@@ -723,7 +725,6 @@ p:last-child {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .companies-link {
@@ -740,7 +741,6 @@ p:last-child {
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .companies-link:hover,
@@ -788,7 +788,6 @@ p:last-child {
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .filt-button-item:not(:first-child) {
@@ -821,7 +820,6 @@ p:last-child {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .work-link:hover,
@@ -892,7 +890,6 @@ p:last-child {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .work-link:focus .works-overlay,

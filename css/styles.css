@@ -399,8 +399,8 @@ p:last-child {
 }
 
 .email-submit-button {
-  display: flex;
-  align-content: center;
+  display: inline-flex;
+  align-items: center;
   color: var(--primary-white-color);
   background-color: var(--accent-colour);
 

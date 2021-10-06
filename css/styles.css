@@ -380,7 +380,7 @@ p:last-child {
 
 .email-input {
   padding-left: 16px;
-  width: 358px;
+  flex-grow: 1;
   height: 50px;
 
   color: var(--primary-white-color);
